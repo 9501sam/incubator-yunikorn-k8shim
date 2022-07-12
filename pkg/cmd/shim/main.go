@@ -39,6 +39,9 @@ var (
 )
 
 func main() {
+	// by turtlegod
+	log.Logger().Info("test by turtlegod: main() started")
+
 	log.Logger().Info("Build info", zap.String("version", version), zap.String("date", date))
 	log.Logger().Info("starting scheduler",
 		zap.String("name", constants.SchedulerName))
